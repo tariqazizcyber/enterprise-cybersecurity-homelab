@@ -57,6 +57,15 @@ The lab simulates a real-world environment with multiple machines, network segme
 
 ---
 
+## Network Diagram
+
+![Network Diagram](diagrams/cyberlab-network-diagram.png)
+
+This diagram illustrates the architecture of the homelab, showing how pfSense segments traffic between the cyber range, enterprise environment, and monitoring systems.
+
+
+---
+
 ## Skills Practiced
 
 * Virtualization
