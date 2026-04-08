@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository documents my personal cybersecurity homelab built to gain hands-on experience in networking, system administration, security monitoring, malware analysis, and digital forensics.
+This repository documents my personal cybersecurity homelab built to gain hands-on experience in networking, system administration, security monitoring, malware analysis, and digital forensics. This lab forms the foundation for future detection, monitoring, and incident response use cases.
 
 The lab simulates a real-world environment with multiple machines, network segmentation, and security tools.
 
@@ -147,6 +147,27 @@ This shows the Active Directory setup for centralized identity management.
 ![Splunk Forwarder](screenshots/splunk/splunk_forwarder_data.png)
 
 These confirm that Splunk is running and receiving forwarded log data.
+
+---
+
+## Key Learnings
+
+* Understood how to design a segmented network using pfSense
+* Gained hands-on experience with firewall rule configuration and traffic control
+* Built and managed an Active Directory environment
+* Established communication between attacker and target machines
+* Deployed Splunk and configured log forwarding
+* Learned the importance of visibility and monitoring in a lab environment
+
+---
+
+## Future Improvements
+
+* Improve log forwarding and normalization in Splunk
+* Analyze Windows authentication events for suspicious login behavior
+* Simulate basic attack scenarios within the lab
+* Expand monitoring and detection use cases
+* Document investigation workflows and findings
 
 
 ---
