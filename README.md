@@ -164,17 +164,17 @@ These confirm that Splunk is running and successfully receiving forwarded log da
 
 ---
 
+
 ## Repository Structure
 
-```
-cybersecurity-homelab/
-├── docs/
+.
 ├── diagrams/
+├── docs/
 ├── screenshots/
 └── README.md
+
 ```
 
----
 
 ## Future Improvements
 
