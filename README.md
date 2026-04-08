@@ -2,9 +2,15 @@
 
 ## Overview
 
-This repository documents my personal cybersecurity homelab built to gain hands-on experience in networking, system administration, security monitoring, malware analysis, and digital forensics. This lab forms the foundation for future detection, monitoring, and incident response use cases.
+This repository documents my personal cybersecurity homelab built to gain hands-on experience in networking, system administration, security monitoring, malware analysis, and digital forensics.
 
-The lab simulates a real-world environment with multiple machines, network segmentation, and security tools.
+The lab is designed to replicate a structured enterprise and attack environment, enabling controlled interaction between attacker, target, and monitoring systems. This lab serves as a foundation for developing detection, monitoring, and incident response scenarios.
+
+---
+
+## Why This Lab Matters
+
+This lab bridges the gap between theoretical cybersecurity knowledge and practical implementation. It provides a controlled environment to understand how systems communicate, how attacks are executed, and how monitoring tools provide visibility into system activity.
 
 ---
 
@@ -63,6 +69,17 @@ The lab simulates a real-world environment with multiple machines, network segme
 
 This diagram illustrates the architecture of the homelab, showing how pfSense segments traffic between the cyber range, enterprise environment, and monitoring systems.
 
+---
+
+## Architecture Summary
+
+The lab is structured around pfSense acting as the central firewall, segmenting traffic between three primary zones:
+
+* **Cyber Range**: attacker and vulnerable machines (Kali Linux, Metasploitable, Chronos)
+* **Active Directory Lab**: enterprise environment (Windows Server and Windows 11)
+* **Monitoring Network**: centralized logging using Splunk
+
+This segmentation enables controlled testing of communication, access control, and monitoring workflows.
 
 ---
 
@@ -76,30 +93,18 @@ This diagram illustrates the architecture of the homelab, showing how pfSense se
 * Log monitoring
 * Basic threat detection
 * Malware analysis fundamentals
-* DFIR fundamentals
+* Digital forensics and incident response fundamentals
 
 ---
 
-## Repository Structure
+## Key Learnings
 
-cybersecurity-homelab/
-├── docs/
-├── diagrams/
-├── screenshots/
-└── README.md
-
----
-
-## Screenshots
-
-Screenshots will include:
-
-* Network diagram
-* pfSense firewall rules
-* VM connectivity tests
-* Active Directory setup
-* Splunk dashboards
-* Security tools setup
+* Understood how to design a segmented network using pfSense
+* Gained hands-on experience with firewall rule configuration and traffic control
+* Built and managed an Active Directory environment
+* Established communication between attacker and target machines
+* Deployed Splunk and configured log forwarding
+* Learned the importance of visibility and monitoring in a lab environment
 
 ---
 
@@ -155,18 +160,19 @@ This shows the Active Directory setup for centralized identity management.
 ![Splunk Homepage](screenshots/splunk/splunk_homepage.png)
 ![Splunk Forwarder](screenshots/splunk/splunk_forwarder_data.png)
 
-These confirm that Splunk is running and receiving forwarded log data.
+These confirm that Splunk is running and successfully receiving forwarded log data.
 
 ---
 
-## Key Learnings
+## Repository Structure
 
-* Understood how to design a segmented network using pfSense
-* Gained hands-on experience with firewall rule configuration and traffic control
-* Built and managed an Active Directory environment
-* Established communication between attacker and target machines
-* Deployed Splunk and configured log forwarding
-* Learned the importance of visibility and monitoring in a lab environment
+```
+cybersecurity-homelab/
+├── docs/
+├── diagrams/
+├── screenshots/
+└── README.md
+```
 
 ---
 
@@ -174,10 +180,9 @@ These confirm that Splunk is running and receiving forwarded log data.
 
 * Improve log forwarding and normalization in Splunk
 * Analyze Windows authentication events for suspicious login behavior
-* Simulate basic attack scenarios within the lab
+* Simulate attack scenarios within the lab
 * Expand monitoring and detection use cases
 * Document investigation workflows and findings
-
 
 ---
 
