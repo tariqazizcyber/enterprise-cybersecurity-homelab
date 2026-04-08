@@ -94,16 +94,6 @@ Screenshots will include:
 
 ---
 
-## Future Improvements
-
-* Build detection use cases in Splunk
-* Monitor Windows authentication logs
-* Simulate attack scenarios
-* Document incident response workflows
-* Expand malware analysis notes
-
----
-
 ## Disclaimer
 
 This lab is created for educational purposes only and is fully isolated.
