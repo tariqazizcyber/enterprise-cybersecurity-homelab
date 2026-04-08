@@ -94,6 +94,63 @@ Screenshots will include:
 
 ---
 
+## Lab Screenshots & Validation
+
+### VirtualBox Lab Environment
+
+![VM List 1](screenshots/network/VM-list-01.png)
+![VM List 2](screenshots/network/VM-list-02.png)
+
+These screenshots show all virtual machines used in the lab environment, validating the multi-system setup.
+
+---
+
+### pfSense Firewall Configuration
+
+![Firewall AD Lab](screenshots/pfsense/firewall-rules-ad-lab.png)
+![Firewall Cyber Range](screenshots/pfsense/firewall-rules-cyber-range.png)
+![Firewall LAN](screenshots/pfsense/firewall-rules-LAN.png)
+![Firewall WAN](screenshots/pfsense/firewall-rules-WAN.png)
+
+These demonstrate firewall rules configured in pfSense to control traffic between different network segments.
+
+---
+
+### pfSense Dashboard & Console
+
+![pfSense Dashboard](screenshots/pfsense/pfsense-dashboard.png)
+![pfSense Console](screenshots/pfsense/pfsense-console.png)
+
+These validate that pfSense is deployed and functioning as the core firewall/router.
+
+---
+
+### Kali to Metasploitable Connectivity
+
+![Kali Connectivity](screenshots/kali/Metasploitable_ping_in_kali.png)
+
+This confirms successful communication between attacker and target machines.
+
+---
+
+### Active Directory Dashboard
+
+![Active Directory](screenshots/windows-ad/AD-dashboard.png)
+
+This shows the Active Directory setup for centralized identity management.
+
+---
+
+### Splunk Monitoring
+
+![Splunk Homepage](screenshots/splunk/splunk_homepage.png)
+![Splunk Forwarder](screenshots/splunk/splunk_forwarder_data.png)
+
+These confirm that Splunk is running and receiving forwarded log data.
+
+
+---
+
 ## Disclaimer
 
 This lab is created for educational purposes only and is fully isolated.
